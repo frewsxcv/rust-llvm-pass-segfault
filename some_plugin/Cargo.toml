@@ -1,0 +1,9 @@
+[package]
+name = "some_plugin"
+version = "0.1.0"
+authors = ["Corey Farwell <coreyf@rwell.org>"]
+build = "build.rs"
+
+[lib]
+name = "some_plugin"
+plugin = true

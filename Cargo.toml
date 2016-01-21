@@ -1,0 +1,11 @@
+[package]
+name = "some_program"
+version = "0.1.0"
+authors = ["Corey Farwell <coreyf@rwell.org>"]
+
+[[bin]]
+name = "some_program"
+path = "main.rs"
+
+[dependencies]
+some_plugin = {path = "some_plugin"}
